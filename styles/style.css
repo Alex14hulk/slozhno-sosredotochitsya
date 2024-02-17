@@ -10,6 +10,7 @@
   background-image: var(--page-background-image);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .header {
@@ -326,12 +327,7 @@ button:hover {
   .header__paragraph-content {
     display: flex;
     justify-content: flex-end;
-    margin-block-start: 141px;
-    margin-inline-end: 10px;
-  }
-
-  .main {
-    padding: 0px 20px;
+    margin-block-end: 15px;
   }
 
   .article__columns-desktop {
@@ -339,7 +335,7 @@ button:hover {
     width: 100%;
     gap: 20px;
     margin-inline-start: 20px;
-    margin-inline-end: 20px;
+    margin-inline-end: 10px;
   }
 
   .article__columns {
@@ -357,24 +353,30 @@ button:hover {
 
   .article__rows {
     display: grid;
-    gap: 19px;
-    margin-block-start: 78px;
-  }
-
-  .article__title-grid {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr;
-  }
- 
-  .card {
-    display: grid;
-    width: 100%;
-    gap: 20px;
     margin-inline-start: 10px;
     margin-inline-end: 10px;
   }
 
+  .article__title-grid {
+    display: grid;
+    grid-template-columns: min-content 1fr 1fr;
+    margin-block-start: 30px;
+  }
+ 
+  .article__indent {
+    margin-block-start: 2px;
+  }
+
+  .card {
+    display: grid;
+    width: 100%;
+    margin-block-start: 10px;
+    margin-inline-start: 18px;
+    margin-inline-end: 10px;
+  }
+
   .article_images {
+    margin-block-start: 80px;
     margin-inline-start: 10px;
     margin-inline-end: 10px;
   }
@@ -382,7 +384,7 @@ button:hover {
   .images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 11px;
     grid-auto-flow: dense;
     align-items: stretch;
     grid-template-areas: 
@@ -390,7 +392,8 @@ button:hover {
     "figure_tape   figure_books  figure_ice-cream"
     "figure_tape   figure_street figure_street"
     "figure_tape   figure_street figure_street";
-    margin-block-start: 10px;
+    margin-block-start: 11px;
+    margin-block-end: 0px;
     margin-inline-start: 10px;
     margin-inline-end: 10px;
   }
@@ -448,7 +451,7 @@ button:hover {
   .header__paragraph {
     max-width: 491px;
     width: 100%;
-    margin-block-end: 89px;
+    margin-block-end: 7px;
   }
 
   .article__columns-desktop {
@@ -466,8 +469,12 @@ button:hover {
   .paragraph__columns {
     display: flex;
     gap: 19px;
-    margin-inline-start: 6px;
     flex-wrap: wrap;
+  }
+
+  .card {
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
   }
 
   .article_desktop {

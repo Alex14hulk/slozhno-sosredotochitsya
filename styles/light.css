@@ -5,6 +5,7 @@
   --article-color: var(--article-color-light);
   --text-shadow: var(--accent-color-light);
   --design-color: var(--article-color-light);
+  --design-color-transparent: var(--article-color-transparent-light);
   --article-title-color: var(--article-color-light);
   --visibility: hidden;
   --page-background-color: var(--main-color-light);
@@ -18,8 +19,9 @@
     --logo-color: var(--logo-color-light);
     --article-color: var(--article-color-light);
     --text-shadow: var(--accent-color-light);
-    --design-color: var(--accent-color-light);
-    --article-title-color: var(--main-color-light);
+    --design-color: var(--article-color-light);
+    --design-color-transparent: var(--article-color-transparent-light);
+    --article-title-color: var(--article-color-light);
     --visibility: hidden;
     --page-background-color: var(--main-color-light);
     --page-background-image: url(../images/cover-image-light.png);

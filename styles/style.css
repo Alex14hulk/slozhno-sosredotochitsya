@@ -58,7 +58,7 @@
   right: 18px;
   top: 17px;
   background-color: var(--design-color);
-  box-shadow: 0 0 5px 2px var(--design-color);
+  box-shadow: 0 0 4px 2px var(--design-color);
   visibility: var(--visibility);
 }
 
@@ -127,7 +127,7 @@ button:focus-visible {
 }
 
 button:hover {
-  border: 1px solid rgba(255, 0, 122, 0.4)
+  border: 1px solid var(--design-color-transparent);
 }
 
 .header__title {
@@ -149,7 +149,6 @@ button:hover {
 }
 
 .main {
-  background-color: var(--page-background-color);
   padding: 0px 10px;
   margin: 10px 0px;
 }
@@ -211,7 +210,7 @@ button:hover {
 
 .accent-word {
   text-decoration: none;
-  text-shadow: 1px 1px var(--accent-color);
+  text-shadow: 2px 2px var(--accent-color);
 }
 
 .accent-word:hover {
@@ -333,7 +332,6 @@ button:hover {
   .article__columns-desktop {
     display: grid;
     width: 100%;
-    gap: 20px;
     margin-inline-start: 20px;
     margin-inline-end: 10px;
   }

@@ -1,5 +1,6 @@
 :root {
   --accent-color-dark: #ff0070;
+  --accent-color-transparent-dark: rgba(255,0,112,0.4);
   --main-color-dark: #000028;
   --logo-color-dark: #db00ff;
   --article-color-dark: #f1b2ce;
@@ -7,6 +8,7 @@
   --main-color-light: #fff1f7;
   --logo-color-light: #ffc2e6;
   --article-color-light: #353430;
+  --article-color-transparent-light: rgba(53,52,48,0.4);
   --text-shadow-light: #ff0070;
   --visibility: visible;
   --page-background-color: var(--main-color-dark);

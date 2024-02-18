@@ -5,6 +5,7 @@
   --article-color: var(--article-color-dark);
   --text-shadow: var(--accent-color-dark);
   --design-color: var(--accent-color-dark);
+  --design-color-transparent: var(--accent-color-transparent-dark);
   --article-title-color: var(--main-color-dark);
   --visibility: visible;
   --page-background-color: var(--main-color-dark);
@@ -16,9 +17,10 @@
     --accent-color: var(--accent-color-dark);
     --main-color: var(--main-color-dark);
     --logo-color: var(--logo-color-dark);
-    --article-color: var(--article-color-dar);
+    --article-color: var(--article-color-dark);
     --text-shadow: var(--accent-color-dark);
     --design-color: var(--accent-color-dark);
+    --design-color-transparent: var(--accent-color-transparent-dark);
     --article-title-color: var(--main-color-dark);
     --visibility: visible;
     --page-background-color: var(--main-color-dark);
